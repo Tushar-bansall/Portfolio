@@ -30,7 +30,7 @@ import {
   figma,
   docker,
   news,
-  rideIT,
+  zappcab,
   chat,
   threejs,
 } from "../assets";
@@ -159,5 +159,70 @@ const experiences = [
 ];
 
 
+const projects = [
+  {
+    name: "ZappChat - Real Time Chat Platform",
+    description:
+      "ZappChat is a real-time chat platform with one-on-one & group messaging, image sharing, voice & video calls, Google authentication, friend suggestions and updates, and status updates. Designed for seamless communication, it ensures secure, fast, and interactive conversations.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: chat,
+    source_code_link: "https://github.com/Tushar-bansall/Realtime-Chat-App",
+  },
+  {
+    name: "ZappCab - Cab Booking Service",
+    description:
+      "ZappCab is a modern cab booking service that provides seamless ride-hailing experiences for users and drivers. The platform supports user authentication, driver registration, ride path tracking, driver and user history-rides tracking and more.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: zappcab,
+    source_code_link: "https://github.com/Tushar-bansall/Cab-booking",
+  },
+  {
+    name: "Newsphere - News Website",
+    description:
+      "Newsphere is a modern, responsive React-based news website that provides news articles across multiple categories, including Business, Sports, Technology, Entertainment, Health, Science, and more. It integrates with a news API to fetch the latest articles and display them to the users.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "newsapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: news,
+    source_code_link: "https://github.com/Tushar-bansall/Newsify-NewsApp",
+  },
+];
 
-export { services, technologies, experiences };
+export { services, technologies, experiences, projects };

@@ -38,8 +38,8 @@ import zidio from "./company/zidio.jpg";
 
 
 import news from "./news.png";
-import rideIT from "./rideIT.png";
-import chat from "./chat.png";
+import zappcab from "./zappcab.jpg";
+import chat from "./chat.jpg";
 
 export {
   cpp,
@@ -77,6 +77,6 @@ export {
   chinar,
   zidio,
   news,
-  rideIT,
+  zappcab,
   chat,
 };
