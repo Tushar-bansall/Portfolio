@@ -154,91 +154,10 @@ const experiences = [
 "Utilized Git for version control and contributed to clean, modular code through peer-reviewed pull requests.",
 
 "Gained hands-on experience with debugging, API integration, and performance optimization in a production-level environment."],
-  },
-  {
-    title: "Frontend Developer",
-    company_name: "Chinar Fabrics",
-    icon: chinar,
-    iconBg: "#00923f",
-    date: "June 2024 - July 2024",
-    points: [
-      "Developed and maintained frontend components for Chinar Fabrics' internal and customer-facing web applications using React.js, improving user experience and interface consistency.",
-
-      "Collaborated with UI/UX designers and backend developers to implement pixel-perfect designs and integrate RESTful APIs for dynamic data rendering.",
-
-      "Ensured responsive layouts and cross-browser compatibility, optimizing the website for desktop, tablet, and mobile devices.",
-
-      "Participated in regular code reviews, learning best practices and contributing to clean, maintainable code.",
-    ],
-  },
+  }
   
 ];
 
 
-const projects = [
-  {
-    name: "BuzzChat - Real Time Chat Platform",
-    description:
-      "BuzzChat is a real-time chat platform with one-on-one & group messaging, image sharing, voice & video calls, Google authentication, friend suggestions and updates, and status updates. Designed for seamless communication, it ensures secure, fast, and interactive conversations.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: chat,
-    source_code_link: "https://github.com/Manavi-Arora/BuzzChat-MERN",
-  },
-  {
-    name: "RideIT - Cab Booking Service",
-    description:
-      "RideIT is a modern cab booking service that provides seamless ride-hailing experiences for users and drivers. The platform supports user authentication, driver registration, ride path tracking, driver and user history-rides tracking and more.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: rideIT,
-    source_code_link: "https://github.com/Manavi-Arora/RideIT-MERN",
-  },
-  {
-    name: "Newsphere - News Website",
-    description:
-      "Newsphere is a modern, responsive React-based news website that provides news articles across multiple categories, including Business, Sports, Technology, Entertainment, Health, Science, and more. It integrates with a news API to fetch the latest articles and display them to the users.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "newsapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "bootstrap",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: news,
-    source_code_link: "https://github.com/Manavi-Arora/Newsphere-React-NewsApp",
-  },
-];
 
-export { services, technologies, experiences, projects };
+export { services, technologies, experiences };
